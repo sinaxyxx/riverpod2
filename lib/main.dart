@@ -34,7 +34,7 @@ class Home extends ConsumerWidget {
           );
         },
         error: (e, s) => const Center(
-          child: Text('エラーです'),
+          child: Text('エラーです!'),
         ),
         loading: () => const Center(
           child: CircularProgressIndicator(),
